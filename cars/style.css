@@ -1,0 +1,238 @@
+
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+ box-sizing: border-box;
+ margin: 0;
+}
+:root{
+    --main-color: #0d6efd;
+    --gray-color:#e5e5e5;
+}
+
+.bg-color{
+    background-color: #e5e5e5;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+ ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ a {
+   text-decoration: none;
+ }
+ .container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .container-f{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .header{
+    background-color: #0d6efd;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+ }
+ .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+  .logo{
+    width: 55px;
+    border-radius: 21px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .nav {
+    display: flex;
+  }
+  .header .nav > li > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    padding: 0 30px;
+    transition: .3s;
+  }
+  .header .nav a:hover{
+    color:rgb(83, 79, 79) ;
+
+  }
+
+  .btn-search{
+    width: 40%;
+    /* height: 39%; */
+    background: white;
+    border: 0px solid;
+    border-radius: 6px;
+  }
+ 
+  .navbar{
+    width: 25% !important;
+  }
+  .bg-img{
+    background-image:url(../cars-img/hero-image-xl-dc9a4dd0ab428af746adb3a34614729d.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+  }
+  .btn-width{
+    width: 14%;
+  }
+  .padding-card{
+    padding-bottom: 8.25rem;
+  }
+   .card-car{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+   }
+  
+   .input-select {
+    width: 72%;
+    height: 34px;
+    border-radius: 8px;
+   }
+   .w-full{
+    width: 43%;
+   }
+   .width-card{
+    width: 100%;
+   }
+   .card-title{
+    font-family: 'Roboto Condensed', sans-serif !important; 
+    font-weight: 600;
+    font-size: 3rem;
+   }
+   .text-card{
+    width: 82%;
+    margin-left: 3%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-family:'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.375
+   }
+   .box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, -0.81);
+   }
+   .card-img-top{
+    width: 45% !important;
+   }
+   .card-img{
+    width: 25% !important;
+   }
+   .card{
+    height: 400px !important;
+    border-radius:19px;
+    background-color: #ededed;
+    border: 0px !important;
+   }
+   .text-style{
+    color: #0d6efd !important;
+   }
+   .card-text{
+    font-family: 'Merriweather', serif;
+   }
+   .imag-cont :hover {
+    transition: all .2s linear !important;
+
+    filter: drop-shadow(1px 2px 6px grey);
+
+}
+.m-top{
+    margin-top: 10%;
+}
+.ma-top{
+    margin-top: 6%;
+}
+.favorite-brand{
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+ position: relative;
+ 
+}
+.favorite-brand .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 18px;
+}
+.favorite-brand .box{
+    background-color: #e5e5e5;
+}
+.favorite-brand .box img{
+max-width: 100%;
+}
+.p-brand{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-right: 2rem!important;
+    padding-left: 1rem!important;
+}
+.font-brand{
+  font-size: 30px;
+  padding-left: 10px;
+  margin-bottom: 0rem!important;
+    
+}
+.width-a-brand{
+  width: 23% !important;
+}
+.p-toyota-brand{
+  padding-top: 2rem;
+  padding-bottom: 2.3rem;
+  padding-right: 2rem!important;
+  padding-left: 1rem!important;
+}
+.h-honda{
+  height: 45px!important;
+}
+.audi{
+  height: 45px;
+    width: 60px;
+}
+
+button:hover {
+  color: white;
+  background-color: #0d6efd !important;
+}
+
+.hr-footer {
+  width: 15%;
+}
+
+.title-foter {
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.icon:hover{
+  color: #0d6efd;
+}
+.margin-botm{
+  margin-bottom: 96px !important;
+}

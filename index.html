@@ -1,0 +1,425 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Bootstrap css cdn -->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <title> Cars</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="cars/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="cars/all.min.css">
+      <!-- google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+      <!-- second-font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+  <!-- font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto+Condensed:ital,wght@0,400;0,600;0,900;1,400;1,800&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <a>
+                    <img src="cars-img/logo.png" alt="logl" class="logo">
+                </a>
+                <ul class="nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">USED</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#"> ABOUT</a></li>
+                </ul>
+                <nav class="navbar w-25">
+                    <div class="container-fluid">
+                      <form class="d-flex">
+                        <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-search" type="submit" >Search</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+          
+        </div>
+        <!-- section background-->
+<div class="bg-img position-relative">
+<div class=" container">
+    <div class="position-absolute h-100  bg-dark bg-opacity-75 top-0">        
+    </div>
+<div class="carousel-caption d-md-block padding-card">
+    <h1 class="fw-bold fs-1 mb-3 ">Car buying</h1>
+    <h2 class="col-12 mb-4 ">
+      shaped to your life</h2>
+    <a href="#" class="btn btn-primary rounded-pill width-bt pt-2 pb-2 me-3 btn-width">Shop Now</a>
+    <a href="#" class="btn btn-primary rounded-pill width-bt pt-2 pb-2 me-3  btn-width">Contact Us
+    </a>
+
+</div>
+    </div>
+</div>
+<!-- section  buying power -->
+<div class="se-car bg-color">
+    
+    <div class="container d-flex flex-column align-items-center flex-lg-row py-5 text-center justify-content-between">
+
+    <div class="card-car">
+        <div class="">
+        <p class="text-card">Know your buying power</p>
+        <h3 class="text-dark">How much car can you afford? Find out, then see vehicles that match your budget</h3>
+        </div>
+        <img src="cars-img/buying-power-xl-a1e7ea75d976086f91fe311285608514.png" alt="car">
+    </div>
+    
+    <div class="bg-white  p-5 d-flex rounded align-items-center flex-column text-center w-full box-shadow imag-cont">
+        <h5 class="card-title mt-2 mb-3">$27,279</h5>
+        <p class="card-text ">Est. buying power.</p>
+        <p class="text-secondary">Based on 8.66% APR</p>
+        
+        <hr class=" mt-4 bg-secondary">
+        <div class=" d-flex pt-2 align-items-center width-card">
+        <div class="form-card  width-card">
+          <form class="mt-3">
+            <label class="d-block mb-2 fw-bold">looking for</label>
+            <select class="input-select border border-1">
+              <option value="Used" label="">Used Car</option>
+              <option value="new">New Car</option>
+            </select>
+          </form>   
+          <form class="mt-3">
+            <label class="d-block mb-2 fw-bold">Credit Score</label>
+            <select class="input-select border border-1">
+              <option value="Score">800 - 850</option>
+              <option value="Score">300 - 579</option>
+              <option value="Score">580 - 669</option>
+              <option value="Score">300 - 579</option>
+              <option value="Score">670 - 739</option>
+            </select>
+          </form>   
+        </div>
+        <div class="form-card width-card">
+          <form class="mt-3">
+            <label class="d-block mb-2 fw-bold">Down Payment</label>
+              <input  readonly value="$3,000"  class=" border border-1 input-select ">
+          </form>   
+          <form class="mt-3">
+            <label class="d-block mb-2 fw-bold">Monthly Payment</label>
+            <input  readonly value="$500"  class="border border-1 input-select ">
+          </form>  
+          </div> 
+        </div>
+        <a href="#" class="btn btn-primary mt-5">See your matches</a>
+
+    </div>
+    </div>
+ 
+  
+</div>
+<!--section cards-->
+<div class="">
+    <div class="container">
+       <h1 class="text-center card-title  ma-top">Featured tools</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+            <div class="col ">
+              <div class="card align-items-center">
+                <img src="cars-img/find-your-fit-c3e69b766901145f689dc9d45db2511d.png" class="card-img-top mt-5 " alt="...">
+                <div class="card-body align-items-center">
+                  <h5 class="card-title text-center text-primary text-style mt-4 pb-4">Find Your Fit</h5>
+                  <p class="card-text text-dark pe-5 ps-5"> Not sure what you want? Answer a few questions to find what fits you best</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card align-items-center">
+                <img src="cars-img/sell-your-car-3535592c22047d856102d713367192eb.png" class="card-img mt-5 " alt="...">
+                <div class="card-body align-items-center">
+                  <h5 class="card-title text-center text-primary text-style mt-4 pb-4">Sell and trade</h5>
+                  <p class="card-text text-dark pe-5 ps-5">Get an offer in minutes, then cash out or trade in</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card align-items-center">
+                <img src="cars-img/build-and-price-e166dc27e8dda05c627d2d8074920ef3.png" class="card-img mt-5 " alt="...">
+                <div class="card-body align-items-center">
+                  <h5 class="card-title text-center text-primary text-style mt-4 pb-4"> Build and price</h5>
+                  <p class="card-text text-dark pe-5 ps-5"> Choose the make, model, trim, and options you want</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card align-items-center">
+                <img src="cars-img/pngtree-piggy-bank-pictures-for-the-future-png-image_6526945.png" class="card-img mt-5 " alt="...">
+                <div class="card-body align-items-center">
+                  <h5 class="card-title text-center text-primary text-style mt-4 pb-1">Shop by budget</h5>
+                  <p class="card-text text-dark pe-5 ps-5">Save time and narrow down cars that fit your monthly payment and price point</p>
+                </div>
+              </div>
+            </div>
+           
+           
+           
+          </div>
+
+    </div>
+
+</div>
+<!-- section why cars-->
+<div class="section-img bg-black m-top">
+    <div class="container">
+        <div class="row justify-content-center mt-custom mb-1 pt-5 ">
+            <div class="col-1">
+                <hr class="first-hr border border-primary border-2 opacity-100 bg-primary w-50 ms-auto">
+                <hr class="last-hr border border-primary border-2 opacity-100 bg-primary">
+            </div>
+            <div class="col-auto">
+                <h2 class=" text-primary card-title">Why Cars</h2>
+            </div>
+            <div class="col-1">
+                <hr class="first-hr border border-primary border-2 opacity-100 bg-primary w-50 me-auto">
+                <hr class="last-hr border border-primary border-2 opacity-100 bg-primary">
+            </div>
+        </div>
+        <div class="row g-5 mt-3 pb-5 md-flex-rawp  text-center">
+            <div class="col-4 cont position-relative md-flex-100 ">
+                <img src="cars-img/transparent-pricing-4d7899553551b3a2db95d346ac20062f.svg" class="h-50 w-50 imag-cont">
+                <p class="text-white mt-4 fs-5 fw-bold">Transparent pricing</p>
+                <p class="text-light mt-3 fs-6 fw-normal w-75  ps-5 ms-4">No surprises here. See how much you'll pay on cars you like.</p>
+            </div>
+            <div class="col-4 position-relative cont md-flex-100 ">
+                <img src="cars-img/minutes-not-hours-48afd64860a3e72b36d5986738c77eb4.svg" class="h-50 imag-cont w-50">
+                <p class="text-white mt-4 fs-5 fw-bold">Minutes, not hours</p>
+                <p class="text-light mt-3 fs-6 fw-normal w-75  ps-5 ms-4">Time saving tools to help you find the right car in a snap..</p>
+            </div>
+            <div class="col-4 cont position-relative md-flex-100">
+                <img src="cars-img/shop-your-way-f575579b12ccf6daf39539dab242c0e2.svg" class="h-50 imag-cont w-50">
+                <p class="text-white mt-4 fs-5 fw-bold">Shop your way</p>
+                <p class="text-light mt-3 fs-6 fw-normal w-75 ps-5 ms-4">Your own pace, your own space. Shop online where and when it's convenient for you.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- section favorite brand-->
+<div class=" favorite-brand ">
+  <div class="row justify-content-center mt-custom mb-1 pt-5 container-f">
+    <div class="col-1 pt-5">
+        <hr class="first-hr border border-primary border-2 opacity-100 bg-primary w-50 ms-auto">
+        <hr class="last-hr border border-primary border-2 opacity-100 bg-primary">
+    </div>
+    <div class="col-auto mb-4">
+        <h2 class=" text-primary card-title py-5 text-center card-title mb-5">Shop your favorite brand</h2>
+    </div>
+    <div class="col-1 pt-5 mt-1">
+        <hr class="first-hr border border-primary border-2 opacity-100 bg-primary w-50 me-auto">
+        <hr class="last-hr border border-primary border-2 opacity-100 bg-primary">
+    </div>
+</div>  
+    <div class="container ">
+        <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-brand  text-center box align-items-baseline">
+            <a href="#" class="width-a-brand"> <img src="cars-img/BMW_logo_(gray).svg.webp" class=" "> </a>
+            <a href="#"><p class="fw-bold text-secondary font-brand">Bmw</p>
+            </a>
+            </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand  text-center box align-items-center">
+            <a href="#" class="width-a-brand"> <img src="cars-img/Toyota_Symbol.svg.png" class=" "> </a>
+             <a href="#"><p class="fw-bold text-secondary font-brand">Toyota</p></a>
+            </div>
+       </div>
+       
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/Chevrolet_bowtie_2023.svg.png"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Chevrolet</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#" class=""> <img src="cars-img/honda_bike-logo_brandlogos.net_cvdcu-512x512.png" class="h-honda"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand ">Honda</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/ford.svg" class="h-honda"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Ford</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/Audi-Logo_2016.svg.png" class="audi"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Audi</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/Acura_logo.svg.png" class="h-honda"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Acura</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/Hyundai_symbol.svg.png" class="h-honda"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Hyundai</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/640px-Dodge_black_logo.svg.png"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Dodge</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/Mercedes-Benz_Star_2022.svg.png " class="h-honda"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Mercedes
+          </p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/KIA_logo2.svg.png" class="h-honda"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Kia</p>
+          </a>
+     </div>
+       </div>
+       <div class="imag-cont">
+        <div class="d-flex flex-row justify-content-center rounded p-toyota-brand text-center box align-items-center">
+          <a href="#"> <img src="cars-img/Lexus.svg.png"> </a>
+          <a href="#"><p class="fw-bold text-secondary font-brand">Lexus</p>
+          </a>
+     </div>
+       </div>
+  
+</div>
+</div>
+<!-- Get car reviews from our experts -->
+
+
+
+<!-------------------------->
+<div class="section-dark bg-secondary mt-5 mb-5 margin-botm">
+  <div class="container">
+      <div class="row align-items-center justify-content-between md-flex-rawp">
+          <div class="col-6 md-flex-100 ">
+              <a class="d-inline-block fs-1 fw-bold text-white "><i class="fa-regular fa-envelope"></i></a>
+              <p class="d-inline-block fs-sub text-white fw-semibold ms-2 ">Subscribe now for news</p>
+
+          </div>
+          <div class="col-6 pt-5 pb-5 md-flex-100  md-col-12">
+              <form>
+                  <input class="col-6 rounded pt-2 pb-2 ps-2 border-0 border-out " type="email"
+                      placeholder="Enter Your Email" name="email">
+                  <input class="btn btn-primary rounded-pill col-3 ms-3 md-col-12" type="submit" value="Submit">
+              </form>
+          </div>
+
+      </div>
+  </div>
+
+</div>
+<!-- footer-->
+<footer class="bg-dark position-relative">
+  <div class="container">
+      <div class="row md-flex-rawp mt-5">
+          <div class="col-4 md-flex-100 mt-5">
+              <p class="text-white  title-foter">Contact Info</p>
+              <hr class=" hr-footer border-primary  opacity-100 bg-primary">
+              <ol class="address ">
+                 <div class="d-flex flex-row justify-content-between w-75 mb-2">
+                  <li class=""><a href="#" class="text-white d-inline-block me-1 fs-5"><i class="fa-brands fa-facebook icon"></i></a>
+                  </li>
+                  <li class=""><a href="#" class="text-white d-inline-block me-1 fs-5"><i class="fa-brands fa-instagram icon"></i></a>
+                  <li class=""><a href="#" class="text-white d-inline-block me-1 fs-5"><i class="fa-brands fa-twitter icon"></i></a>
+                  </li>
+                  <li class=""><a href="#" class="text-white d-inline-block me-1 fs-5"><i class="fa-brands fa-youtube icon"></i></a>
+                  </li>
+                 </div>
+
+                  <li class=""><a class="text-white d-inline-block me-2 fs-5"><i
+                              class="fa-solid fa-location-dot icon"></i></a>
+                      <p class="text-white d-inline-block">123 Street Market,New York</p>
+                  </li>
+
+                  <li><a class="text-white d-inline-block me-2 fs-5"><i class="fa-solid fa-phone-volume icon"></i></a>
+                      <p class="text-white d-inline-block">987654321</p>
+                  </li>
+
+                  <li><a class="text-white d-inline-block me-2 fs-5"><i class="fa-solid fa-envelope icon"></i></a></i>
+                      <p class="text-white d-inline-block">team@gmail.com</p>
+                  </li>
+
+              </ol>
+
+
+
+          </div>
+          <div class="col-4 md-flex-100  mt-5">
+              <p class="text-white  title-foter">Work With Cars</p>
+              <hr class=" hr-footer border-primary  opacity-100 bg-primary ">
+              <div class="d-flex mt-3 pe-4" >
+                  <div class=" justify-content-between ">
+                      <p class="text-white col-9 ms-2"></p>
+
+                      <a href="#" class="text-white d-block text-decoration-underline  mb-2">Dealers</a>
+                      <a href="#" class="text-white d-block text-decoration-underline  mb-2">OEM</a>
+                      <a href="#" class="text-white d-block text-decoration-underline  mb-2">Partners</a>
+
+                  </div>
+              </div>
+              <hr class="opacity-100 bg-light border-secondary border-3 mt-3 mb-3 col-9">
+              <div class="d-flex  ">
+                  <img src="" class="col-2 ">
+                  <div class=" justify-content-between ">
+                      <p class="text-white col-9 ms-2"></p>
+
+                      <a href="#" class="text-white ms-2"></a>
+                      <a href="#" class="text-white "></a>
+
+                  </div>
+              </div>
+
+
+
+
+          </div>
+          <div class="col-4 md-flex-100 mt-5 " >
+              <p class="text-white  title-foter">Products</p>
+              <hr class=" hr-footer border-primary  opacity-100 bg-primary ">
+              <button class="bg-white text-dark rounded-pill p-2 m-3 w-25"> Used</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2 w-25"> New</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2">Sell Your Car</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2 w-25">EV</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2">Military</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2">Buy Online</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2"> About</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2"> Site Map</button>
+              <button class="bg-white text-dark rounded-pill p-2 m-2"> We are</button>
+          </div>
+      </div>
+  </div>
+</footer>
+
+    </body>
+ </html>
